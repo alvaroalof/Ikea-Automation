@@ -1,0 +1,6 @@
+{
+  "name": "IKEA Logistics Optimizer",
+  "description": "Sistema de optimización de envíos para IKEA con lógica de Iterator y Aggregator inspirada en Make.com.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

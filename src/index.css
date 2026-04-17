@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Helvetica Neue", Arial, sans-serif;
+  
+  --color-ikea-blue: #0058AB;
+  --color-ikea-yellow: #FFDA1A;
+  --color-bg-main: #F4F7F9;
+  --color-card-bg: #FFFFFF;
+  --color-text-main: #111111;
+  --color-text-muted: #555555;
+  --color-accent-orange: #FF4F00;
+  --color-border-light: #E0E0E0;
+}
+
+@layer base {
+  body {
+    @apply bg-bg-main text-text-main antialiased;
+  }
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  @apply bg-border-light rounded-full;
+}
